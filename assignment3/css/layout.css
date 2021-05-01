@@ -1,0 +1,122 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 80px 350px 100px 300px 100px;
+}
+#headstruct{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #1D2749;
+}
+#secondheader{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #CD374C;
+}
+#maincontent{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#secondcontent{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#thirdcontent{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#social_media{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #1D2749;
+}
+
+#headstruct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: PT Serif Caption, sans-serif;
+    color: white;   
+}
+
+#content{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+#texans_logo{
+    width: 60px;
+    height: auto;
+}
+
+#pictures{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+
+#first_pic{
+    width: 400px;
+    height: auto;
+}
+
+#second_pic{
+    width: 400px;
+    height: 239px;
+}
+
+#pic_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#secondcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.draft_type{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#thridcontent{
+    display:flex;
+    justify-content: center;
+}
+
+#sign{
+    width: 650px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 300px;
+}
+
+#social_media_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25px;
+    height: auto;
+}
